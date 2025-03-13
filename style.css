@@ -396,13 +396,16 @@ footer img {
         margin:  0 0 10px 0;
         max-width: 96vw;
     }
+    .f4 {
+        display: none;
+    }
     .galeria {
         width: 100%;
         display: grid;
-        grid-template-columns:1fr 1FR;
+        grid-template-columns:1fr;
     }
     .galeria img {
-        width: 50vw;
+        width: 100vw;
     }
     
 }
